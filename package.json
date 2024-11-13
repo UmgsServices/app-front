@@ -1,6 +1,6 @@
 {
   "homepage":"https://umgsservices.github.io/app-front/",
-  "name": "newprojectfront",
+  "name": "app-front",
   "private": true,
   "version": "0.0.0",
   "type": "module",
