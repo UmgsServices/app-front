@@ -12,9 +12,11 @@ const router=createBrowserRouter([
 // <Navigate to='/' state={{from: location}} replace/> #
 //const from =location.state?.from?.pathname || '/'
     {
+       
         path:'/',
         element:<RootLayout/>,
-       errorElement:'go bCK',
+       errorElement:'gut',
+       
         children:[
 
            
@@ -46,7 +48,9 @@ const router=createBrowserRouter([
         ]
     }
     
-])
+],
+{ basename:"/app-front"}
+)
 function Authenticated (){
     return <div className=" h-screen min-w-screen flex flex-row justify-center  overflow-hidden">
 {/* <Login/> */}

@@ -21,9 +21,9 @@ const router =createBrowserRouter([
         
             }
         ]
-    },
+    }
    
-] 
+],{basename:'/app-front'} 
 )
 const  UnAuthenticated=()=>{
     return  <><RouterProvider router={router}/></>
